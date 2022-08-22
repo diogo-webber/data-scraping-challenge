@@ -1,0 +1,18 @@
+version: '3'
+
+# Everything is configurable and auto imported.
+
+services:
+  output_db:
+    image: postgres:12
+    container_name: postgres_db
+    restart: always
+    environment:
+      POSTGRES_DB: postgres_db
+      POSTGRES_USER: postgres_db_user
+      POSTGRES_PASSWORD: password
+    volumes:
+      - ./dbdata:/var/lib/postgresql/data
+      - ./scripts/outputdb.sql:/docker-entrypoint-initdb.d/outputdb.sql
+    ports:
+      - "5432:5432"
