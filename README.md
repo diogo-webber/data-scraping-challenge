@@ -1,7 +1,7 @@
 [challenge_source]: https://medium.com/@meigarom/o-projeto-de-data-engineering-para-o-seu-portfólio-c186c7191823
 [books_website]: http://books.toscrape.com
 
-<img src="https://i.imgur.com/zm2paNE.png" align="left" width="185px"/>
+<img src="https://i.imgur.com/p6UduXq.png" align="left" width="185px"/>
 
 # Data Scraping Practice
 
